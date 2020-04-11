@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <style>
+        tr,
+        td {
+            border: solid;
+        }
+        
+        input[type=text] {
+            border: none;
+            border-bottom: 4px solid #ffddcc;
+            color: black;
+        }
+        
+        input[type=text]:focus {
+            background-color: #ff9966;
+            border: 5px solid #8842d5;
+        }
+        
+        input[type=button] {
+            background-color: darkgoldenrod;
+            border: none;
+            color: darkmagenta;
+            padding: 18px 36px;
+            text-decoration: darkorange;
+            margin: 5px 4px;
+            cursor: grab;
+        }
+    </style>
+    <script src="app.js" defer></script>
+</head>
+
+<body style="background-color:burlywood;">
+    <h1 align="center">Calculator</h1>
+    <p style="text-align: center; font-size: 25px; font-family: monospace;">You are requested to enter 2 numbers following with the operations to perform</p>
+    <br>
+
+
+
+    <br>
+    <p style="font-family: cursive;">Enter Number 1</p>
+    <input type="text" id="t1">
+
+    <p style="font-family: cursive;">Enter Number 2</p>
+    <input type="text" id="t2">
+
+    <p style="font-family: cursive;">Answer is</p>
+    <input type="text" id="t3">
+    <br><br>
+
+
+
+
+    <table style="width: 50%; text-align: center;">
+
+
+        <tr>
+            <td><input type="button" id="b1" value="ADD" onclick="f1();">
+            </td>
+            <td><input type="button" id="b2" value="Subtract" onclick="f2();"></td>
+            <td>
+                <input type="button" id="b3" value="Multiply" onclick="f3();">
+            </td>
+            <td>
+                <input type="button" id="b4" value="Divide" onclick="f4();">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="button" id="b5" value="Num1^Num2" onclick="f5();">
+            </td>
+            <td>
+                <input type="button" id="b6" value="Sin Value" onclick="f6();">
+            </td>
+            <td>
+                <input type="button" id="b7" value="Cos Value" onclick="f7();">
+            </td>
+            <td>
+                <input type="button" id="b8" value="Tan Value" onclick="f8();">
+            </td>
+        </tr>
+
+
+    </table>
+    <br>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+    background-color: #00001a;
+}
+
+.headd img {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background: #555;
+}
+
+.headd h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+.aq {
+    align-content: center;
+    transition: transform .2s;
+    color: cornsilk;
+}
+
+.aq:hover {
+    font-family: cursive;
+    align-content: center;
+    transform: scale(1.01);
+}
+
+.a {
+    font-family: cursive;
+    color: cornsilk;
+}
+
+.b {
+    font-family: cursive;
+    color: white;
+}
+
+.ts {
+    font-size: 20px;
+    transition: transform .2s;
+    color: cornsilk;
+    font-family: cursive;
+}
+
+.ts:hover {
+    font-size: 20px;
+    transform: scale(1.01);
+}
+
+.ca {
+    font-size: 20px;
+    font-family: cursive;
+    color: cornsilk;
+}
+
+.pi {
+    font-size: 20px;
+    transition: transform .2s;
+    color: cornsilk;
+    font-family: cursive;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+th {
+    background-color: blueviolet;
+    color: white;
+}
+
+th,
+td {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+}
